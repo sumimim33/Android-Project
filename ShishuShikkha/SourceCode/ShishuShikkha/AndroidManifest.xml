@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shishushikkha"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="17" />
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconnewnew11"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.shishushikkha.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="BanglaActivity"></activity>
+        <activity android:name="AnkoActivity"></activity>
+        <activity android:name="AkiBukiActivity"></activity>
+        <activity android:name="ChoraActivity"></activity>
+        <activity android:name="EnglishActivity"></activity>
+        <activity android:name="BanglaShorActivity"></activity> 
+        <activity android:name="BanglaShorItemDelails"></activity>
+        <activity android:name="BanjonBornoActivity"></activity>
+        <activity android:name="BanjonbornoItemDetails"></activity>
+        <activity android:name="EnglishItemDetails"></activity>
+        <activity android:name="ActivityEkDui"></activity>
+        <activity android:name="ActiviryOneTwo"></activity>
+        <activity android:name="AboutUs"></activity>
+        <activity android:name="ChoraItemDetails"></activity>
+    </application>
+
+</manifest>
